@@ -24,10 +24,17 @@ It should return promise with status and proper Json.
 API CALLS:
 
 GET/mode - list of all available mods
+
 GET/mode/{id} - info about mode with specified id
+
 POST/mode - create custom mode
+
 PUT /mode/{id} - customise mode with specified id
+
 DELETE /mode/{id} - delete mode with specified id
+
 PUT /power/{id} - turn on machine with specified mode
+
 PUT /power - turn off machine
+
 GET /time - remaining machine running time
